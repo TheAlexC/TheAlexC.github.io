@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  	<!-- Bootstrap -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<!-- animate -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	
+	<!-- Original CSS -->
+	<link rel="stylesheet" type = "text/css" href="stylesheet.css">
+	
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
@@ -14,45 +21,87 @@
   	<meta name = "viewport" content="width=device-width, intital-scale= 1">
     <title>Peter Camejo - About Me</title>
   </head>
-  <body>
+ <body>
+  <div id="main-wrapper">
+    <nav id = "mainNav" class = "navbar navbar-default navbar-fixed-top" role = "navigation">
+        <div class = "container-fluid">
+          <div class = "navbar-header">
+            <a class = "navbar-brand"> Peter Camejo </a>
+          </div>
+        <div class = "collapse navbar-collapse">
+          <ul id= "navUl" class= "nav navbar-nav navbar-right">
+            <li><a href = "#mainHome"> Home </a></li>
+            <li><a href = "#mainPort"> Portfolio </a></li>
+            <li><a href = "#mainAbout"> About </a></li>
+            <li><a href = "#mainContact"> Contact </a></li>
+          </ul>
+         </div>
+       </div>
+      </nav>
 
-  <nav class = "navbar navbar-inverse">
-  	<div class = "container-fluid">
-  		<div class = "navbar-header">
-  			<a class = "navbar-brand" href= "index.html" > Peter Camejo </a>
-  		</div>
-  		<div>
-  			<ul class = "nav navbar-nav">
-  				<li class = "active"><a href = 'index.html'> About  </a></li>
-  				<li><a href = "projects.html"> Projects </a></li>
-          <!--<li><a href = "resume.html"> Resume </a></li> -->
-  			</ul>
-  		</div>
-  	</div>
-  </nav>
+    <!-- Home Page -->
+    <div id = "mainHome" class = "container-fluid main">
 
-  <div class ="container">
-  	<div class = "page-header">
-    	<h1> About Me </h1>
-    </div>
-    <div class = "row">
-      <div class = "col-sm-8">
-        Hello, I am a 3rd Year Computer Science student at the University of Florida set to graduate in Spring 2016 hoping to find an internship for the summer.
-        <br><br>
-        Thus far, my experience has been with core Computer Science concepts such as <a href="https://github.com/TheAlexC/BasicSortingAlgorithms"> sorting algorithms,</a>
-        <a href="https://github.com/TheAlexC/Template-Linked-List"> data structures,</a>  and <a href="https://github.com/TheAlexC/DijkstraSingleSource"> everything in between</a> using
-        primarily <b> C++ </b> and <b> Java </b>.
-        <br><br>
-        Recently, I have begun strengthening my expertise and knowledge in web design, <a href="https://github.com/CEN3031ProjectFLAV/Project-FIT"> software development,</a> and robotics/electronics, particularly using an <b>Arduino platform</b>.
-        <br><br>
-        I am unsure of what field I would like to make my career in once I graduate and am hoping an internship can help guide my decision.
+      <div id = "headers" class= "container-fluid ">
+          <h1 id = "mainHeader" class = "text-primary"> Peter Camejo </h1>
+        <h4 id = "subHeader"> Computer Science Student </h4>
       </div>
-      <div class = "col-sm-4">
-        <img style = "margin: 0 auto;" src = "/assets/TheAlex.jpg" class = "img-circle" alt = "TheAlex" width = "200" hieght = "150" ><br>
-        <a style="margin-left:20px" type="button" class = "btn btn-primary" href = "mailto:pa.camejo@gmail.com"> Send me an Email! </a>
-      </div>
+      <hr class = "socLinksDivider">
+      <ul class= "list-inline socRow">
+        <li class="socLi">
+           <a href = "#mainContact" class = "btn btn-large socLinks"><i class= "fa fa-google fa-fw"></i> Placeholder </a>
+        </li>
+        <li class = "socLi">
+          <a href="https://www.linkedin.com/in/peter-camejo-908472110" class = "btn btn-large socLinks"><i class= "fa fa-linkedin fa-fw"></i> LinkedIn </a>
+        </li>
+        <li class = "socLi">
+           <a href = "https://github.com/TheAlexC/" class="btn btn-lg socLinks"><i class="fa fa-github fa-fw"></i>  Github
+           </a>
+        </li>
+        <li class = "socLi">
+         <a href = "http://www.freecodecamp.com/thealexc" class = "btn btn-large socLinks"><i class = "fa fa-fire fa-fw"></i> freeCodeCamp </a>
+        </li>
+
+      </ul>
+
     </div>
+
+
+    <!-- Portfolio Page -->
+    <div id = "mainPort" class = "container-fluid main">
+      <h1 id = "portHeader"> Portfolio </h1>
+
+    </div>
+
+    <!--About Page -->
+    <div id = "mainAbout" class = "container-fluid main">
+      <h1 id ="aboutHeader"> About </h1>
+      <div id= "about-text" class = "container-fluid col-md-3 col-md-offset-1">
+        Hello, I am a 4th Year Computer Science student at the University of Florida set to graduate in Fall 2016 seeking a career in software development. My passion is to build cool stuff.
+        <br></br>
+        Thus far, my experience has been with core computer science concepts and web development. Specific topics include operating systems, data structures and algorithms, and software development and testing.
+        <br></br>
+        While I am looking for a career in software development, I am interested in most computer related topics including security, artificial intelligence, and computer engineering.  
+
+
+      </div>
+      <div id="about-picture" class = "container-fluid col-md-3 col-md-offset-4">
+      </div>
+
+    </div>
+
+
+    <!-- Contact Page -->
+    <div id= "mainContact" class = "container-fluid main">
+      <h1 id="contactHeader"> Contact </h1>
+    </div>
+
+  <footer>
+    <div id="footer-container" class = "container-fluid">
+      <div id="footer-nav-row" class = "row-fluid">
+        <a href = "#mainAbout"><i class= "fa fa-facebook fa-fw"></i> About </a>
+        <a href = "www.google.com"><i class = "fa fa-google fa-fw"></i> Google </a>
   </div>
+</body>
 
-  </body>
 </html>
