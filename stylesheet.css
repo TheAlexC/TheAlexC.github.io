@@ -1,0 +1,171 @@
+html,
+body{
+  height:100%;
+ 
+  width:100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5{
+  font-family:"Lato", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+
+#mainHeader{
+  text-align: center;
+  font-size: 100px;
+  
+}
+
+#mainNav{
+  font-weight: 800;
+  background-color:black;
+}
+
+#headers{
+  padding-top: 10%;
+}
+
+#subHeader{
+  text-align: center;
+}
+
+.socRow{
+   display: block;
+   list-style:none;
+   position:relative;
+   float:left;
+   left: 50%;
+}
+.socLinksDivider{
+  width: 75%;
+  border-color:black;
+  border-top: 1px solid white;
+  border-bottom:1px solid black;
+}
+
+.socLinks{
+  
+  background: white;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border-color: black;
+  color: black;
+  border-style: outset;
+  border-width: 2px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px black;
+  text-shadow:1px;
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+  margin:10px;
+  
+  
+}
+
+.socLinks:hover{
+  transform:scale(1.1);
+  background: black;
+  color: white;
+}
+#mainHome{
+  background-image: url("http://res.cloudinary.com/thealex117/image/upload/v1449414354/background1_gb6pgi.jpg");
+
+}
+
+#mainAbout{
+  background-image: url("http://res.cloudinary.com/thealex117/image/upload/v1449414349/background0_uyjlob.jpg");
+  
+ 
+
+
+}
+
+.mouseOverButton{
+  background-color:black;
+  color: red;
+  
+}
+#mainPort{
+  background-image: url("http://res.cloudinary.com/thealex117/image/upload/v1449428953/background3_xztfps.jpg");
+
+}
+
+#mainContact{
+  background-image:url("http://res.cloudinary.com/thealex117/image/upload/v1449428948/background2_jy8jaz.jpg");
+ 
+}
+
+.main{
+  padding: 50px 0;
+  position: relative;
+  background-size:cover;
+  height: 855px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: centered top;
+  background-attachment: fixed;
+  overflow:hidden;
+}
+
+#navUl{
+  padding-right:15%;
+}
+
+#aboutHeader{
+  text-align: center;
+
+}
+
+.socLi{
+  position:relative;
+  float: left;
+  display: block;
+  right: 50%;
+}
+
+
+#about-text{
+  float:left;
+  color: white;
+  background-color: green;
+  font-size: 20px;
+  position: relative;
+}
+
+#about-picture{
+  background-image:url("http://res.cloudinary.com/thealex117/image/upload/v1449860307/PortfolioWebsite/boat.jpg");
+  background-repeat: no-repeat; 
+    
+  background-size: 100% ;
+  background-position: center top;
+  border-style:solid;
+  position: relative;
+  height: 382px;
+  box-shadow: 3px 3px 3px black;
+  
+
+ 
+ 
+}
+
+
+#footer-container{
+  height: 100px;
+  background-color:gray;
+ 
+  
+}
+
+#footer-nav-row{
+  float:left;
+  margin-top: 10px;
+}
+
